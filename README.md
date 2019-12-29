@@ -4,7 +4,7 @@
 
 ### Dependencies
 
-Checkmate is currently using following dependencies.
+This Package is currently using following dependencies.
 ```
 * [Sequelize] - "^5.12.3"
 * [Lodash]    - "^4.17.15"
