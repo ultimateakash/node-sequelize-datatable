@@ -1,4 +1,4 @@
-# ultimateakash sequelize-datatable
+# node-sequelize-datatable
 sequelize server side datatable handler
 
 ```js 
