@@ -2,7 +2,7 @@
 sequelize server side datatable handler
 
 ```js 
-var { Category } = require('../../models');                      // your model 
+var { Category } = require('../../models');     // your model 
 const sequelizeDatatable = require('node-sequelize-datatable');  
 
 exports.categoryTable = async function(req, res) {
