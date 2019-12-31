@@ -1,6 +1,6 @@
 {
     "name": "node-sequelize-datatable",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "sequelize server side datatable handler",
     "main": "index.js",
     "scripts": {
@@ -15,7 +15,11 @@
         "datatable",
         "ultimate",
         "ultimateakash",
-        "nodejs"
+        "nodejs",
+        "angular-datatable",
+        "angular-datatables",
+        "sequelize-datatable",
+        "sequelize-datatables"
     ],
     "author": "Akash Verma (ultimateakash)",
     "license": "ISC",
