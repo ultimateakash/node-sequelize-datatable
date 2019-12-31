@@ -72,7 +72,6 @@ exports.categoryTable = async function(req, res) {
 Angular Code
 ```ts
 import { Component, OnInit } from '@angular/core';
-import { Category } from '../models';
 import { BlogService } from '../internal-blog/blog.service';
 
 @Component({
@@ -83,8 +82,7 @@ import { BlogService } from '../internal-blog/blog.service';
 export class CategoryComponent implements OnInit {
 
     dtOptions: DataTables.Settings = {};
-    categories: Category[];
-    error: { error: '', message: '' };
+    categories = []; 
 
     constructor(
         private blogService: BlogService
