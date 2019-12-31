@@ -52,13 +52,13 @@ Example request body
     }
 }
 ```
-Example code for category model
+Example code for category model [all columns data(id, category) should be same as database table columns]
 ```js 
 const { Category } = require('../../models');   // your model 
 const sequelizeDatatable = require('node-sequelize-datatable');  
 
 exports.categoryTable = async function(req, res) {
-    datatableObj = await sequelizeDatatable(req.body);
+    var datatableObj = await sequelizeDatatable(req.body);
     var count = await Category.count();
     var categories = await Category.findAndCountAll(datatableObj);
     return res.json({

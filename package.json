@@ -1,6 +1,6 @@
 {
     "name": "node-sequelize-datatable",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "sequelize server side datatable handler",
     "main": "index.js",
     "scripts": {
